@@ -1,0 +1,120 @@
+/* General Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  /* Card Styling */
+  .form-card, .list-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    width: 600px; /* Increased width */
+    text-align: center;
+  }
+  
+  /* Title */
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Group */
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: 0.3s;
+    font-size: 16px;
+  }
+  
+  .input-group input:focus {
+    border-color: #007bff;
+    box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.3);
+  }
+  
+  /* Button Styling */
+  .btn {
+    background: #28a745;
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background: #218838;
+  }
+  
+  /* Subject List */
+  .list-card {
+    width: 700px; /* Increased width */
+    margin-top: 20px;
+  }
+  
+  .subject-item {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .subject-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .subject-header {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .subject-credit {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .view-syllabus {
+    display: inline-block;
+    margin-top: 8px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  .view-syllabus:hover {
+    text-decoration: underline;
+    color: #0056b3;
+  }
+  
